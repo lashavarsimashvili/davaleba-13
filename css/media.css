@@ -1,0 +1,36 @@
+@media (max-width: 1000px) {
+  .card-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+}
+
+@media (max-width: 750px) {
+  nav {
+    display: none;
+  }
+  .menu-icon {
+    display: inline;
+  }
+  .img-text-wrapper {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  h2 {
+    text-align: center;
+  }
+
+  article img {
+    width: 80%;
+  }
+  article p {
+    width: 80%;
+  }
+}
+
+@media (max-width: 500px) {
+  .card {
+    width: 90%;
+  }
+}
